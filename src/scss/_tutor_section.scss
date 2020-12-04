@@ -1,0 +1,40 @@
+.tutor-section {
+  background-color: $the-color;
+  border-radius: 25px;
+  box-shadow: $box-shadow;
+  .tutor-heading {
+    padding: 20px;
+  }
+  .available-tutor-row {
+    border: 1px solid $the-color;
+    margin-top: auto;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding: 2rem;
+    background-color: #fff;
+
+    .card {
+      border-radius: 15px;
+      height: 50vh;
+      margin-top: 25px;
+      img {
+        border-radius: 15px;
+        height: 24vh;
+        width: auto;
+        object-fit: cover;
+      }
+    }
+    .card:hover {
+      border-radius: 15px;
+      height: 50vh;
+      margin-top: 25px;
+      box-shadow: $box-shadow;
+      img {
+        border-radius: 15px;
+        height: 24vh;
+        width: auto;
+        object-fit: cover;
+      }
+    }
+  }
+}

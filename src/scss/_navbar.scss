@@ -1,0 +1,68 @@
+.header-area {
+  .main-menu {
+    .logo-brand {
+      object-fit: fill;
+      height: 50px;
+    }
+    .navbar-fixed {
+      position: fixed;
+      width: 100%;
+      top: -1px;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      box-shadow: $box-shadow;
+      z-index: 999;
+      transition: background 1s ease;
+    }
+    .navbar {
+      padding: 1rem 5rem;
+      position: fixed;
+      width: 100%;
+      top: -1px;
+      left: 0;
+      right: 0;
+      background: $white-gradient;
+      box-shadow: $box-shadow;
+      z-index: 999;
+      transition: background 1s ease;
+
+      .navbar-brand {
+        padding: 0 2rem 0 5rem;
+        font-weight: 600;
+      }
+      .nav-item {
+        .nav-link {
+          font-family: $roboto;
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: 500;
+          padding: 1.1rem;
+          color: $title-color;
+          letter-spacing: 0.1rem;
+        }
+      }
+      .navbar-nav {
+        .active {
+          a {
+            background: $primary-color;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          }
+        }
+        a:hover {
+          background: $primary-color;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+        .dropdown-menu {
+          border-top-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+          box-shadow: $shadow-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.corousel-row {
+  padding: 2rem;
+  .carousel-inner {
+    img {
+      width: auto;
+      height: 40vh;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+  }
+}

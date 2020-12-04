@@ -1,0 +1,40 @@
+.filterbar {
+  margin: 20px 20px 20px 20px;
+  border: 1px solid $snow-color;
+  border-radius: 25px;
+  background-color: $the-color;
+  box-shadow: $box-shadow;
+  padding: 2rem;
+  display: flex;
+  width: auto;
+  justify-content: left;
+  .level {
+    width: 200px;
+    margin-right: 50px;
+  }
+  .grade {
+    width: 300px;
+    margin-right: 50px;
+    .grade__control {
+      border-radius: 10px;
+    }
+    .grade__menu {
+      border-radius: 10px;
+      .grade__option {
+        border-radius: 10px;
+      }
+    }
+  }
+  .course {
+    width: 300px;
+    .course__control {
+      border-radius: 10px;
+    }
+    .course__menu {
+      border-radius: 10px;
+      .course__option {
+        border-radius: 10px;
+      }
+    }
+  }
+}

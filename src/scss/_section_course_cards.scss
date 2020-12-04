@@ -1,0 +1,30 @@
+.section-courses-cards {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  padding: 2rem;
+  background-color: $the-color;
+  .card {
+    border-radius: 15px;
+    height: 50vh;
+    margin-top: 25px;
+    img {
+      border-radius: 15px;
+      height: 24vh;
+      width: auto;
+      object-fit: cover;
+    }
+  }
+  .card:hover {
+    border-radius: 15px;
+    height: 50vh;
+    margin-top: 25px;
+    box-shadow: $box-shadow;
+    img {
+      border-radius: 15px;
+      height: 24vh;
+      width: auto;
+      object-fit: cover;
+    }
+  }
+}

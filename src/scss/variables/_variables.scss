@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+/* My CSS Variables */
+$primary-color: #3c63e3;
+$secondary-color: #032539;
+$green-color: #1c768f;
+$yellow-color: #fa991c;
+$snow-color: #e4e6f3;
+$fadeblue-color: #8896c7;
+$the-color: #cedfee;
+$body-color: #cbd4f3;
+$title-color: #141313;
+$text-color: #3d4661;
+$border-color: #201f1f17;
+$blue-gradient: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+$white-gradient: linear-gradient(144deg, #fff 0%, #b3c3d1 100%);
+$shadow-color: 0px 10px 30px rgba(136, 150, 199, 0.2);
+$shadow-color2: 0px 10px 30px rgba(58, 59, 65, 0.2);
+$box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+$roboto: "Roboto";
+$roboto-medium-500: "Times New Roman", Times, serif;

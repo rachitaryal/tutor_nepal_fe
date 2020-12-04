@@ -1,0 +1,18 @@
+.site-main {
+  .main-content {
+    .main-body {
+      margin-top: 130px;
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      box-shadow: $box-shadow;
+      border-radius: 25px;
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: teal;
+      }
+    }
+  }
+}
